@@ -15,32 +15,39 @@
       async
     />
     <link rel="stylesheet" href="style.css" defer />
-    <title>Card View 1</title>
+    <title>Card layout 1</title>
   </head>
   <body>
     <div class="container">
-      <img src="user.png" alt="user image" width="128px" height="128px" />
+      <img src="user.png" alt="user-img" width="128px" height="128px" />
       <div class="info">
-        <div class="user-name-uni-container">
-          <p>
+        <div class="name-uni-container">
+          <p class="name">
             Jackie Chan
-            <i class="material-icons" style="color: #f8aa39; font-size: 16px;">
+            <i
+              class="material-icons"
+              style="color: #f8aa39; font-size: 16px; margin-left: 2px;"
+            >
               check_circle
             </i>
           </p>
-          <p>Karate University</p>
+          <p class="uni">Karate University</p>
         </div>
-        <div class="bg-white gre">
-          <p>SCORE:</p>
-          <p>333 in 45 days</p>
+        <div class="score">
+          <p class="score-title">SCORE:</p>
+          <p class="score-info">333 in 45 days</p>
         </div>
-        <div class="bg-primary admits">
-          <p>Admits:</p>
-          <p>Kung fu & Karate</p>
+        <div class="admits">
+          <p class="admits-title">
+            <span>Admits:</span>
+          </p>
+          <p class="admits-info">
+            <span>Kung fu & Karate</span>
+          </p>
         </div>
-        <button>
-          Get his master plan
-        </button>
+        <div class="button">
+          <a href="#">Get his master plan</a>
+        </div>
       </div>
     </div>
   </body>
