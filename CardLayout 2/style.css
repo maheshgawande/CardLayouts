@@ -35,7 +35,7 @@ body {
 }
 .img {
   height: 160px;
-  background-image: url("coding.jpg");
+  background-image: url("assets/coding.jpg");
   background-color: #cccccc;
   background-position: center;
   background-repeat: no-repeat;
